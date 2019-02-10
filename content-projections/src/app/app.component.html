@@ -1,0 +1,26 @@
+<div class="m-3">
+  <div class="header">
+    <h1>
+      Welcome to {{ title }}!
+    </h1>
+  </div>
+
+  <div class="col-3 content">
+    <span>With projection content</span>
+    <app-custom-component
+      title="Header">
+      <p>Content body</p>
+    </app-custom-component>
+  </div>
+
+  <div class="col-3 content">
+    <span>Without projection content</span>
+    <app-custom-component
+      title="Header">
+    </app-custom-component>
+  </div>
+
+</div>
+
+
+<!--<router-outlet></router-outlet>-->
